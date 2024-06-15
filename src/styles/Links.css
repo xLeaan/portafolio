@@ -1,0 +1,35 @@
+
+.Links {
+    margin-top: 6%;
+    margin-right: 6%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+  }
+  
+  .Links .title {
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 15%;
+    align-items: right;
+    justify-content: right;
+    color: rgb(244, 138, 236);
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Links a {
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.nav.links {
+    margin-top: 5%;
+}
+
+  
