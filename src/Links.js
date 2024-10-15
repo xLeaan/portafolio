@@ -6,11 +6,11 @@ export const Links = () => {
     <div className='Links'>
         <h6 className='title'>MENU</h6>
         <div className='nav-links'>
-          <a>Experiencia.</a>
+          <a href='/experiencia'>Experiencia.</a>
           <br />
-          <a>Trabajos.</a>
+          <a href='/estudios'>Estudios/ tecnologias manejadas.</a>
           <br />
-          <a>Contacto.</a>
+          <a href='/contacto'>Contacto.</a>
         </div>
         
         

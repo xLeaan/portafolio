@@ -1,0 +1,17 @@
+.container {
+    width: 850px;
+    column-count: 2 ;
+    column-width: 200px;
+}
+
+.buttons {
+    min-height: 100vh;
+    margin-right: 60%;
+    display: flex;
+    min-width: 400px;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+}

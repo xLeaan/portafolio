@@ -2,17 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { Links } from './Links';
-
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
-  <div className="container">
-    <Links />
-    <div className="App">
-      <App />  
-    </div>
-  </div>
-   
+  <Router>
+    <App />
+  </Router>
 );
 
