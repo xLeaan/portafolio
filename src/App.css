@@ -1,5 +1,5 @@
 .App {
-  background-color: #171718;
+  background: radial-gradient(circle at top, rgba(255, 255, 255, 0.2), transparent 90%), #171718;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

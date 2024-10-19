@@ -4,7 +4,8 @@ import './styles/Links.css'
 export const Links = () => {
   return (
     <div className='Links'>
-        <h6 className='title'>MENU</h6>
+        <h6 className='title'>
+          <a href='/' className='title'>MENU</a></h6>
         <div className='nav-links'>
           <a href='/experiencia'>Experiencia.</a>
           <br />

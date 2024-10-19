@@ -7,8 +7,13 @@ import { TbBrandReactNative } from 'react-icons/tb';
 import '../styles/Estudios.css';
 
 export const Estudios = () => {
+
+  // const [info, setInfo] = useState(false);
+
+
   return (
-    <div className='container'>
+    <>
+    <div className='containerEstudios'>
         <div className='buttons'>
             <FaReact />
             <FaNodeJs />
@@ -23,23 +28,25 @@ export const Estudios = () => {
             <FaPhp />
             <SiGooglebigquery />
         </div>
+        </div>
+
         {/* <div>
-            <p> 
-                <h1>Estudios</h1>
-                <strong>Servicio nacional de aprendizaje</strong>
-                <br />
-                Técnico en programación de software
-                <br /> <br />
-                <strong>UDEMY</strong>
-                <br />
-                ReactJS desarrollador
-                <br />
-                Kotlin
-                <br />
-                MySQL
-            </p>
+        <p> 
+            <h1>Estudios</h1>
+            <strong>Servicio nacional de aprendizaje</strong>
+            <br />
+            Técnico en programación de software
+            <br /> <br />
+            <strong>UDEMY</strong>
+            <br />
+            ReactJS desarrollador 
+            <br />
+            Kotlin
+            <br />
+            MySQL
+        </p>
         </div> */}
+    </>
       
-    </div>
   )
 }

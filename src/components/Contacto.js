@@ -7,14 +7,13 @@ export const Contacto = () => {
         <div className='container'>
             <p>
                 <h1>SOBRE MI</h1>
-                Persona responsable, motivado y aprendiz autónomo, dispuesto a reforzar mis conocimientos,
-                aprendiendo nuevas cosas en el camino, dispuesto a enfrentar
-                cualquier reto
+                Persona responsable, motivado y aprendiz autónomo, dispuesto a reforzar mis conocimientos en programación,
+                aprendiendo nuevas cosas en el camino, abierto a enfrentar cualquier reto.
             </p>
-        
+            <br />
         <p>
             <h2>CONTACTO</h2>
-            <strong>Telefono</strong>
+            <strong>Teléfono</strong>
             <br /> 
             +57 3107970174
             <br /> <br />
@@ -24,7 +23,7 @@ export const Contacto = () => {
             <br /> <br />
             <strong>Github</strong>
             <br />
-            <a href='https://github.com/xLeaan' target='_blank'>xLeaan</a>
+            <a href='https://github.com/xLeaan' target='_blank' rel="noreferrer">xLeaan</a>
             
 
         </p>
