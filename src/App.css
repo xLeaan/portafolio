@@ -11,6 +11,8 @@
 .name {
   font-size: 60px;
   font-family: 'Times New Roman', Times, serif;
+  margin-right: 100px;
+  margin-top: 70px;
 }
 .info {
   margin-top: -1%;
@@ -22,8 +24,22 @@
 }
 
 .content.moved-up {
-  transform: translateY(-200px);
+  transform: translateY(-70px);
   
+}
+
+.content {
+  transition: all 1s ease;
+}
+
+.home {
+  position: relative;
+  top: -100px;
+}
+
+.moved-up {
+  position: relative; 
+  top: -20px; 
 }
 
 

@@ -18,6 +18,17 @@
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+  .Links .subtitle {
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 15%;
+    align-items: left;
+    justify-content: left;
+    color: rgb(244, 138, 236);
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+  }
   
   .Links a {
     display: block;
@@ -32,4 +43,19 @@
     margin-top: 5%;
 }
 
+.bottom-left-links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.bottom-left-links a {
+  display: block;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 30px;
+  margin-left: 60px
+}
   

@@ -9,7 +9,7 @@ export const Links = () => {
         <div className='nav-links'>
           <a href='/experiencia'>Experiencia.</a>
           <br />
-          <a href='/estudios'>Estudios/ tecnologias manejadas.</a>
+          <a href='/estudios'>Tecnologias manejadas.</a>
           <br />
           <a href='/contacto'>Contacto.</a>
         </div>
