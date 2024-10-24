@@ -25,13 +25,6 @@ function Experiencia () {
     'Implementación básica de consulta de API'
   ];
 
-  // const buttonTexts = [
-  //   'Más información sobre Elite',
-  //   'Descubre BuildVisionAI',
-  //   'Ver código front end',
-  //   'Ver código back end',
-  // ];
-
 
   const handleSlideChange = (swiper) => {
     setActiveIndex(swiper.realIndex);

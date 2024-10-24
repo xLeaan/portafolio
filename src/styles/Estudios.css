@@ -66,17 +66,6 @@
     opacity: 1;
 }
 
-.infobutton {
-    padding: 10px 20px;
-    background-color: rgb(244, 138, 236);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 10px;
-    transition: 0.3s ease;
-}
-
 @keyframes shake {
     0% { transform: translate(0); }
     25% { transform: translate(-5px, 0); }
@@ -91,4 +80,102 @@
   
   .stopped {
     animation: none;
+}
+
+@media (min-width: 768px) {
+    .header-izq {
+        left: 70px;
+        top: 90px;
+        font-size: 18px;
+    }
+
+    .containerEstudios {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .buttons svg {
+        font-size: 50px;
+        margin: 5px;
+    }
+
+    .Tooltip {
+        font-size: 12px;
+    }
+}
+  
+  
+  @media (max-width: 768px) {
+    .header-izq {
+        left: 20px;
+        top: 40px;
+        font-size: 14px;
+    }
+
+    .containerEstudios {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .buttons svg {
+        font-size: 30px;
+        margin: 5px;
+    }
+
+    .Tooltip {
+        font-size: 12px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .header-izq {
+        left: 20px;
+        top: 130px;
+        font-size: 14px;
+        background-color: black;
+    }
+
+    .containerEstudios {
+        width: 90%;
+        height: auto;
+        margin-top: 5px;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .buttons svg {
+        font-size: 30px;
+        margin: 5px;
+    }
+    .Tooltip {
+        font-size: 12px;
+    }
   }

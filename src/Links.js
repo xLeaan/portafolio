@@ -12,9 +12,7 @@ export const Links = () => {
           <a href='/estudios'>Tecnologias manejadas.</a>
           <br />
           <a href='/contacto'>Contacto.</a>
-        </div>
-        
-        
+        </div> 
     </div>
   )
 }

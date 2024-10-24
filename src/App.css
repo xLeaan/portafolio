@@ -42,4 +42,61 @@
   top: -20px; 
 }
 
+@media (min-width: 768px) {
+  .App {
+    column-count: 1;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.name {
+    font-size: 4em;
+    margin-left: 100px;
+}
+
+.info {
+  font-size: 2em;
+  margin-left: 100px;
+}
+}
+
+
+@media (max-width: 768px) {
+  .App {
+    column-count: 1;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.App .name {
+    font-size: 3em;
+    margin-left: -80px;
+}
+
+.App .info {
+  font-size: 1.5em;
+  margin-left: -80px;
+}
+}
+
+
+@media (max-width: 480px) {
+  .App {
+      column-count: 1;
+      padding: 5px;
+      font-size: 1.2em;
+  }
+
+  .App .name {
+      font-size: 2em;
+      margin-left: 45px;
+      margin-top: 100px;
+  }
+
+  .App .info {
+    font-size: 1em;
+    margin-left: 45px;
+  }
+}
+
 
