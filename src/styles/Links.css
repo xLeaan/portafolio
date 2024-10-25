@@ -95,6 +95,7 @@
   .Links {
       padding: 1px;
       font-size: 1.2em;  
+      left: 25px;
   }
 
   .nav-links {
@@ -118,8 +119,10 @@
   .bottom-left-links {
     display: flex;
     flex-direction: row;
-    top: 750px;
-    margin-left: 20px
+    position: fixed; 
+    bottom: -60px;
+    left: 20px; 
+    margin-left: 0;
   }
 }
   
