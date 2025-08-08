@@ -9,7 +9,7 @@ export const Contacto = () => {
             <p>
                 <h1>SOBRE MI</h1>
                 Persona responsable, motivado y aprendiz autónomo, dispuesto a reforzar mis conocimientos en programación
-                aprendiendo nuevas cosas en el camino, con facilidad para el trabajo en equipo aportando ideas nuevas y respetando las demás,
+                aprendiendo nuevas cosas en el camino, y aplicando los conomientos ya aprendidos; Facilidad para el trabajo en equipo aportando ideas nuevas y respetando las demás ideas,
                 enfrentando con liderazgo los nuevos retos que se impongan.
             </p>
             <br />
